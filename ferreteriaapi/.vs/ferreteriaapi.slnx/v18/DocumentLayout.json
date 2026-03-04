@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\data\\ferreteriadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:data\\ferreteriadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|c:\\users\\admin\\desktop\\3\u00B0c_2026_btvds\\m\u00F3dulo\\evaluac\u00EDon 1 y 2\\victorialeiva9_cesarelias7\\ferreteriaapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CED0B20-9F83-93CF-5466-2D4CA9377313}|ferreteriaapi.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-18T23:14:05.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:10:01.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T15:38:40.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Models\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Models\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Models\\Proveedor.cs",
+              "RelativeToolTip": "Models\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T02:29:22.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T02:11:31.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FerreteriaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Data\\FerreteriaDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\FerreteriaDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Data\\FerreteriaDbContext.cs",
+              "RelativeToolTip": "Data\\FerreteriaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T01:27:27.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Models\\Venta.cs",
+              "RelativeToolTip": "Models\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T01:26:55.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:38:14.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "Controllers\\VentasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T18:31:39.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProveedoresController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\3\u00B0C_2026_BTVDS\\M\u00F3dulo\\Evaluac\u00EDon 1 y 2\\VictoriaLeiva9_CesarElias7\\ferreteriaapi\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "Controllers\\ProveedoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:44:34.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

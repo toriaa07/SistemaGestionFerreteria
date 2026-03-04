@@ -1,0 +1,323 @@
+[
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProductosController",
+    "Method": "GetProductos",
+    "RelativePath": "api/Productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProductosController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Productos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "ferreteriaapi.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProductosController",
+    "Method": "GetProducto",
+    "RelativePath": "api/Productos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProductosController",
+    "Method": "UpdateProducto",
+    "RelativePath": "api/Productos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "producto",
+        "Type": "ferreteriaapi.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProductosController",
+    "Method": "UpdateProductoPartial",
+    "RelativePath": "api/Productos/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "producto",
+        "Type": "ferreteriaapi.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProductosController",
+    "Method": "DeleteProducto",
+    "RelativePath": "api/Productos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProveedoresController",
+    "Method": "GetProveedores",
+    "RelativePath": "api/Proveedores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProveedoresController",
+    "Method": "CreateProveedor",
+    "RelativePath": "api/Proveedores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proveedor",
+        "Type": "ferreteriaapi.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProveedoresController",
+    "Method": "GetProveedor",
+    "RelativePath": "api/Proveedores/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProveedoresController",
+    "Method": "UpdateProveedor",
+    "RelativePath": "api/Proveedores/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proveedor",
+        "Type": "ferreteriaapi.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProveedoresController",
+    "Method": "UpdateProveedorPartial",
+    "RelativePath": "api/Proveedores/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proveedor",
+        "Type": "ferreteriaapi.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.ProveedoresController",
+    "Method": "DeleteProveedor",
+    "RelativePath": "api/Proveedores/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.VentasController",
+    "Method": "GetVentas",
+    "RelativePath": "api/Ventas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.VentasController",
+    "Method": "CreateVenta",
+    "RelativePath": "api/Ventas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venta",
+        "Type": "ferreteriaapi.Models.Venta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.VentasController",
+    "Method": "GetVenta",
+    "RelativePath": "api/Ventas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.VentasController",
+    "Method": "UpdateVenta",
+    "RelativePath": "api/Ventas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "venta",
+        "Type": "ferreteriaapi.Models.Venta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.VentasController",
+    "Method": "UpdateVentaPartial",
+    "RelativePath": "api/Ventas/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "venta",
+        "Type": "ferreteriaapi.Models.Venta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.VentasController",
+    "Method": "DeleteVenta",
+    "RelativePath": "api/Ventas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ferreteriaapi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ferreteriaapi.WeatherForecast, ferreteriaapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
