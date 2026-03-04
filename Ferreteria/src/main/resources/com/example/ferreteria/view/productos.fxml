@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="root" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.ferreteria.controller.MainController"
+            style="-fx-background-color: #0f172a;"
+             maxWidth="-Infinity" maxHeight="-Infinity">
+
+    <top>
+        <HBox spacing="10" style="-fx-padding: 12; -fx-alignment: center-left; -fx-background-color: #111827;">
+            <Button text=" Inicio" onAction="#irInicio"
+                    style="-fx-background-color:#1f2937; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:8 12;"/>
+            <Button text=" Productos" onAction="#irProductos"
+                    style="-fx-background-color:#2563eb; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:8 12;"/>
+            <Button text=" Proveedores" onAction="#irProveedores"
+                    style="-fx-background-color:#1f2937; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:8 12;"/>
+            <Button text=" Ventas" onAction="#irVentas"
+                    style="-fx-background-color:#1f2937; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:8 12;"/>
+        </HBox>
+    </top>
+
+    <center>
+        <VBox spacing="12" style="-fx-padding: 16;">
+
+            <Label text="Gestión de Productos"
+                   style="-fx-font-size: 20; -fx-font-weight: bold; -fx-text-fill: white;"/>
+
+            <TableView fx:id="tblProductos" prefHeight="280"
+                       style="-fx-background-color: white; -fx-background-radius: 10; -fx-border-radius: 10;">
+                <columns>
+                    <TableColumn fx:id="colId" text="ID" prefWidth="60"/>
+                    <TableColumn fx:id="colNombre" text="Nombre" prefWidth="120"/>
+                    <TableColumn fx:id="colDescripcion" text="Descripción" prefWidth="180"/>
+                    <TableColumn fx:id="colPrecio" text="Precio" prefWidth="90"/>
+                    <TableColumn fx:id="colStock" text="Stock" prefWidth="70"/>
+                    <TableColumn fx:id="colIdProveedor" text="IdProveedor" prefWidth="90"/>
+
+                </columns>
+            </TableView>
+
+            <Separator style="-fx-opacity: 0.4;"/>
+
+            <Label text="Agregar producto"
+                   style="-fx-font-size: 15; -fx-font-weight: bold; -fx-text-fill: white;"/>
+
+            <GridPane hgap="10" vgap="10"
+                      style="-fx-background-color:#111827; -fx-padding: 14; -fx-background-radius: 12;">
+                <columnConstraints>
+                    <ColumnConstraints percentWidth="15"/>
+                    <ColumnConstraints percentWidth="35"/>
+                    <ColumnConstraints percentWidth="15"/>
+                    <ColumnConstraints percentWidth="35"/>
+                </columnConstraints>
+
+                <Label text="Nombre:" GridPane.rowIndex="0" GridPane.columnIndex="0"
+                       style="-fx-text-fill: white; -fx-font-weight: bold;"/>
+                <TextField fx:id="txtNombre" GridPane.rowIndex="0" GridPane.columnIndex="1"
+                           style="-fx-background-radius: 8; -fx-padding: 8;"/>
+
+                <Label text="Descripción:" GridPane.rowIndex="0" GridPane.columnIndex="2"
+                       style="-fx-text-fill: white; -fx-font-weight: bold;"/>
+                <TextField fx:id="txtDescripcion" GridPane.rowIndex="0" GridPane.columnIndex="3"
+                           style="-fx-background-radius: 8; -fx-padding: 8;"/>
+
+                <Label text="Precio:" GridPane.rowIndex="1" GridPane.columnIndex="0"
+                       style="-fx-text-fill: white; -fx-font-weight: bold;"/>
+                <TextField fx:id="txtPrecio" GridPane.rowIndex="1" GridPane.columnIndex="1"
+                           style="-fx-background-radius: 8; -fx-padding: 8;"/>
+
+                <Label text="Stock:" GridPane.rowIndex="1" GridPane.columnIndex="2"
+                       style="-fx-text-fill: white; -fx-font-weight: bold;"/>
+                <TextField fx:id="txtStock" GridPane.rowIndex="1" GridPane.columnIndex="3"
+                           style="-fx-background-radius: 8; -fx-padding: 8;"/>
+
+                <Label text="IdProveedor:" GridPane.rowIndex="2" GridPane.columnIndex="0"
+                       style="-fx-text-fill: white; -fx-font-weight: bold;"/>
+                <TextField fx:id="txtIdProveedor" GridPane.rowIndex="2" GridPane.columnIndex="1"
+                           style="-fx-background-radius: 8; -fx-padding: 8;"/>
+
+
+
+                <Button text="Agregar" GridPane.rowIndex="2" GridPane.columnIndex="3" onAction="#agregarProducto"
+                        style="-fx-background-color:#16a34a; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:10 14;"/>
+            </GridPane>
+            <Separator style="-fx-opacity: 0.4;"/>
+
+            <GridPane hgap="12" vgap="12"
+                      style="-fx-background-color:#111827;
+                 -fx-padding: 16;
+                 -fx-background-radius: 14;">
+
+                <columnConstraints>
+                    <ColumnConstraints percentWidth="15"/>
+                    <ColumnConstraints percentWidth="35"/>
+                    <ColumnConstraints percentWidth="15"/>
+                    <ColumnConstraints percentWidth="35"/>
+                </columnConstraints>
+
+                <Label text="Editar Producto"
+                       GridPane.rowIndex="0"
+                       GridPane.columnIndex="0"
+                       GridPane.columnSpan="2"
+                       style="-fx-text-fill: white;
+                  -fx-font-size: 15;
+                  -fx-font-weight: bold;"/>
+
+                <Label text="Producto:"
+                       GridPane.rowIndex="1"
+                       GridPane.columnIndex="0"
+                       style="-fx-text-fill: #cbd5e1;
+                  -fx-font-weight: bold;"/>
+
+                <ComboBox fx:id="cmbProducto"
+                          GridPane.rowIndex="1"
+                          GridPane.columnIndex="1"
+                          style="-fx-background-radius: 8;
+                     -fx-padding: 6;"/>
+
+                <!-- Campo -->
+                <Label text="Campo:"
+                       GridPane.rowIndex="1"
+                       GridPane.columnIndex="2"
+                       style="-fx-text-fill: #cbd5e1;
+                  -fx-font-weight: bold;"/>
+
+                <ComboBox fx:id="cmbCampo"
+                          GridPane.rowIndex="1"
+                          GridPane.columnIndex="3"
+                          style="-fx-background-radius: 8;
+                     -fx-padding: 6;"/>
+
+                <Button text="Editar"
+                        GridPane.columnIndex="3"
+                        GridPane.rowIndex="2"
+                        style="-fx-background-color:#2563eb;
+                   -fx-text-fill:white;
+                   -fx-font-weight:bold;
+                   -fx-background-radius:10;
+                   -fx-padding:10 16;" onAction="#editarProducto"/>
+
+
+            </GridPane>
+
+
+
+
+        </VBox>
+    </center>
+</BorderPane>

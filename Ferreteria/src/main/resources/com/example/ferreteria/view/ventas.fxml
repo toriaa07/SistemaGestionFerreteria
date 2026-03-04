@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="root" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.ferreteria.controller.VentaController"
+            style="-fx-background-color: #0f172a;">
+
+    <top>
+        <HBox spacing="10" style="-fx-padding: 12; -fx-alignment: center-left; -fx-background-color: #111827;">
+            <Button text="Inicio" onAction="#irInicio"
+                    style="-fx-background-color:#1f2937; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:8 12;"/>
+            <Button text="Productos" onAction="#irProductos"
+                    style="-fx-background-color:#1f2937; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:8 12;"/>
+            <Button text="Proveedores" onAction="#irProveedores"
+                    style="-fx-background-color:#1f2937; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:8 12;"/>
+            <Button text="Ventas" onAction="#irVentas"
+                    style="-fx-background-color:#2563eb; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:8 12;"/>
+        </HBox>
+    </top>
+
+    <center>
+        <VBox spacing="14" style="-fx-padding: 16;">
+
+            <Label text="Registro de Ventas"
+                   style="-fx-font-size: 20; -fx-font-weight: bold; -fx-text-fill: white;"/>
+
+            <TableView fx:id="tblVentas" prefHeight="280">
+                <columns>
+                    <TableColumn fx:id="colVentaId" text="ID" prefWidth="60"/>
+                    <TableColumn fx:id="colFecha" text="Fecha" prefWidth="120"/>
+                    <TableColumn fx:id="colProductoNombre" text="Producto" prefWidth="180"/>
+                    <TableColumn fx:id="colCantidad" text="Cantidad" prefWidth="90"/>
+                    <TableColumn fx:id="colTotal" text="Total" prefWidth="90"/>
+                </columns>
+            </TableView>
+
+            <Label text="Selecciona un producto y registra la venta"
+                   style="-fx-font-size: 14; -fx-font-weight: bold; -fx-text-fill: #e5e7eb;"/>
+
+            <HBox spacing="10" style="-fx-background-color:#111827; -fx-padding: 14; -fx-background-radius: 12; -fx-alignment: center-left;">
+                <Label text="Producto:" style="-fx-text-fill:white; -fx-font-weight: bold;"/>
+                <ComboBox fx:id="cboProductos" prefWidth="300"
+                          style="-fx-background-radius: 8;"/>
+
+                <Region HBox.hgrow="ALWAYS"/>
+
+                <Label text="Stock:" style="-fx-text-fill:white; -fx-font-weight: bold;"/>
+                <Label fx:id="lblStock" text="--"
+                       style="-fx-text-fill:#fbbf24; -fx-font-weight: bold; -fx-font-size: 14;"/>
+            </HBox>
+
+            <HBox spacing="10" style="-fx-background-color:#111827; -fx-padding: 14; -fx-background-radius: 12; -fx-alignment: center-left;">
+                <Label text="Cantidad:" style="-fx-text-fill:white; -fx-font-weight: bold;"/>
+                <TextField fx:id="txtCantidad" prefWidth="120"
+                           style="-fx-background-radius: 8; -fx-padding: 8;"/>
+
+                <Button text="Registrar venta" onAction="#registrarVenta"
+                        style="-fx-background-color:#16a34a; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:10 14;"/>
+            </HBox>
+
+            <Label fx:id="lblInfo" text=""
+                   style="-fx-text-fill:#93c5fd; -fx-font-weight: bold;"/>
+
+        </VBox>
+    </center>
+</BorderPane>

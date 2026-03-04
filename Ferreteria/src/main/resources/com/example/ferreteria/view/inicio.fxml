@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="root" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.ferreteria.controller.InicioController"
+            style="-fx-background-color: #0f172a;"
+              maxWidth="60" maxHeight="60">
+
+    <center>
+        <VBox spacing="15" style="-fx-padding: 25; -fx-alignment: center;">
+            <Label text="Ferretería - Menú Principal"
+                   style="-fx-font-size: 22; -fx-font-weight: bold; -fx-text-fill: white;"/>
+
+            <Button text="Gestión de Productos" prefWidth="260" onAction="#irProductos"
+                    style="-fx-background-color:#2563eb; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:10 14;"/>
+            <Button text="Gestión de Proveedores" prefWidth="260" onAction="#irProveedores"
+                    style="-fx-background-color:#2563eb; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:10 14;"/>
+            <Button text="Registro de Ventas" prefWidth="260" onAction="#irVentas"
+                    style="-fx-background-color:#2563eb; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:10; -fx-padding:10 14;"/>
+        </VBox>
+    </center>
+</BorderPane>
+
+
